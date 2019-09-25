@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>SKIING BOOKING</title>
+        <meta name="bookingskiing" content="Skiingbooking">
+    </head>
+    <body>
+        <h1>Welcome to Innsbruck Ski Resort</h1>
+        <form method="post" action="https://postman-echo.com/post">
+            <div>
+                <p><strong>Innsbruck</strong> is the capital city of Tyrol in western Austria and the fifth-largest city in Austria. An internationally renowned winter sports center,and hosted the 1964 and 1976 Winter Olympics as well as the 1984 and 1988 Winter Paralympics. Innsbruck also hosted the first Winter Youth Olympics in 2012!</p>
+
+                <p>Experience with us the <strong>best winter</strong> of your life! Explore the mountains at your own pace and select the right activity for you!</p>
+            </div>
+            <div>
+                <label>What would you like to do today?</label>
+                <input type="checkbox" id=" user_activity" name="user_activity" value="exploreresort"><b>Explore the Resort</b>
+                <input type="checkbox" id="user_activity" name="user_activity" value="discovermountain"><b>Discover the Mountain</b>
+                <input type="checkbox" id="user_activity" name="user_activity" value="ticketspasses"><b>Tickets/Passes</b>
+                <input type="checkbox" id="user_activity" name="user_activity" value="lessons"><b>Lessons/Rentals</b>
+                <input type="checkbox" id="user_activity" name="user_activity" value="lodging"><b>Lodging</b>
+            </div>
+            <h2>Tickets/Passes</h2>
+            <label>Select your level of experience:</label>
+            <div>
+                <input type="radio" id="user_experience1" name="user_experience" value="beginner" checked>
+                <label for="user_experience1">Beginner</label>
+            </div>
+            <div>
+                <input type="radio" id="user_experience2" name="user_experience" value="intermediate">
+                <label for="user_experience2">Intermediate</label>
+            </div>
+            <div>
+                <input type="radio" id="user_experience3" name="user_experience" value="advanced">
+                <label for="user_experience3">Advanced</label>
+            </div>
+            <div>
+                <input type="radio" id="user_experience4" name="user_experience" value="expert">
+                <label for="user_experience3">Expert</label>
+            </div>
+            <div>
+                <h2>Book Your Lesson</h2>
+                <select id="user_booking" name="user_booking">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="private/semiprivate">Private Lesson</option>
+                    <option value="semiprivate">Semi-Private Lesson</option>
+                    <option value="groupkids">Group: Kids</option>
+                    <option value="groupadult">Group: Adult</option>
+                    <option value="week pass">Weekly Pass</option>
+                </select>
+            </div>
+            <div>
+                <h2>Lesson Times</h2>
+                <p>All our lessons and programs are run by our certified and experienced specialists! We will make sure you feel confident in the snow while you have a great time!</p>
+                <label>Select the type of lesson:</label>
+                <input type="radio" id="user_age1" name="user_age" value="kid"><b>Kid</b>
+                <input type="radio" id="user_age2" name="user_age" value="teen"><b>Teen</b>
+                <input type="radio" id="user_age3" name="user_age" value="adult"><b>Adult</b>
+            </div>
+            <div>
+                <p><b>Weekends and Holidays:</b> Lessons start at 10:00am, 11:00 am, 12:00 pm, 1:30 pm, 3:00 pm, and 4:00 pm </p>
+            </div>
+            <div>
+                <p><b>Midweek Ski:</b> Lessons start at 1:30 pm and 3:00 pm.
+            </div>
+            <div>
+                <label>Keep up with our latest info and sign up!</label>
+                <input type="checkbox" id="news" name="news" value="deals"><b>Deals</b>
+                <input type="checkbox" id="news" name="news" value="news1"><b>News about our Resort!</b>
+                <input type="checkbox" id="news" name="news" value="news2"><b>News about Innsbruck!</b>
+            </div>
+            <div>
+                <label for="message">Leave us a comment:</label>
+            </div>
+            <div>
+                <textarea id="message" name="msg"></textarea>
+            </div>
+            <button type="submit" id="submit" name="submit">Submit</button>
+        </form>
+    </body>
+</html>
