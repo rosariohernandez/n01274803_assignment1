@@ -23,65 +23,65 @@ Partial Public Class skiing_booking
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''aspx_user_activity control.
+    '''user_activity control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents aspx_user_activity As Global.System.Web.UI.WebControls.CheckBoxList
+    Protected WithEvents user_activity As Global.System.Web.UI.WebControls.CheckBoxList
     
     '''<summary>
-    '''aspx_user_experience control.
+    '''user_experience control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents aspx_user_experience As Global.System.Web.UI.WebControls.RadioButtonList
+    Protected WithEvents user_experience As Global.System.Web.UI.WebControls.RadioButtonList
     
     '''<summary>
-    '''aspx_user_booking control.
+    '''user_booking control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents aspx_user_booking As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents user_booking As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''aspx_user_age control.
+    '''user_age control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents aspx_user_age As Global.System.Web.UI.WebControls.RadioButtonList
+    Protected WithEvents user_age As Global.System.Web.UI.WebControls.RadioButtonList
     
     '''<summary>
-    '''aspx_news control.
+    '''news control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents aspx_news As Global.System.Web.UI.WebControls.CheckBoxList
+    Protected WithEvents news As Global.System.Web.UI.WebControls.CheckBoxList
     
     '''<summary>
-    '''aspx_user_comment control.
+    '''user_comment control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents aspx_user_comment As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents user_comment As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''aspx_submit control.
+    '''submit control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents aspx_submit As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents submit As Global.System.Web.UI.WebControls.Button
 End Class

@@ -16,7 +16,7 @@
             </div>
             <div>
                 <label>What would you like to do today?</label>
-                <asp:CheckBoxList runat="server" ID="aspx_user_activity">
+                <asp:CheckBoxList runat="server" ID="user_activity">
                     <asp:ListItem Text="Explore The Resort" Value="exploreresort"></asp:ListItem>
                     <asp:ListItem Text="Discover The Mountain" Value="discovermountain"></asp:ListItem>
                     <asp:ListItem Text="Tickets/Passes" Value="ticketspasses"></asp:ListItem>
@@ -27,7 +27,7 @@
             <h2>Tickets/Passes</h2>
             <label>Select your level of experience:</label>
              <div>
-                <asp:RadioButtonList runat="server" ID="aspx_user_experience">
+                <asp:RadioButtonList runat="server" ID="user_experience">
                     <asp:ListItem Text="Beginner" Value="beginner"></asp:ListItem>
                     <asp:ListItem Text="Intermediate" Value="intermediate"></asp:ListItem>
                     <asp:ListItem Text="Advanced" Value="advanced"></asp:ListItem>
@@ -36,7 +36,7 @@
              </div>
             <div>
                 <h2>Book Your Lesson</h2>
-                <asp:DropDownList runat="server" ID="aspx_user_booking">
+                <asp:DropDownList runat="server" ID="user_booking">
                     <asp:ListItem Text="Beginner" Value="beginner"></asp:ListItem>
                     <asp:ListItem Text="Intermediate" Value="intermediate"></asp:ListItem>
                     <asp:ListItem Text="Private Lesson" Value="privatelesson"></asp:ListItem>
@@ -50,7 +50,7 @@
                 <h2>Lesson Times</h2>
                 <p>All our lessons and programs are run by our certified and experienced specialists! We will make sure you feel confident in the snow while you have a great time!</p>
                 <label>Select the type of lesson:</label>
-                <asp:RadioButtonList runat="server" ID="aspx_user_age">
+                <asp:RadioButtonList runat="server" ID="user_age">
                     <asp:ListItem Text="Kid" Value="kid"></asp:ListItem>
                     <asp:ListItem Text="Teen" Value="teen"></asp:ListItem>
                     <asp:ListItem Text="Adult" Value="Adult"></asp:ListItem>
@@ -64,7 +64,7 @@
             </div>
             <div>
                 <label>Keep up with our latest info and sign up!</label>
-                <asp:CheckBoxList runat="server" ID="aspx_news">
+                <asp:CheckBoxList runat="server" ID="news">
                     <asp:ListItem Text="Deals" Value="deals"></asp:ListItem>
                     <asp:ListItem Text="News about our Resort" Value="newsresort"></asp:ListItem>
                     <asp:ListItem Text="News about Innsbruck!" Value="newsinnbruck"></asp:ListItem>
@@ -72,9 +72,9 @@
             </div>
             <div>
                 <label for="message">Leave us a comment:</label>
-                <asp:TextBox runat="server" ID="aspx_user_comment" ></asp:TextBox>
+                <asp:TextBox runat="server" ID="user_comment" ></asp:TextBox>
             </div>
-            <asp:Button runat="server" ID="aspx_submit" text="submit" />
+            <asp:Button runat="server" ID="submit" text="submit" />
     </form>
 </body>
 </html>
